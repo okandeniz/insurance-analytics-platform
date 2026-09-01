@@ -1,0 +1,13 @@
+{
+    "train_contracts": 3461,
+    "train_claims": 70,
+    "train_claim_rate": 0.020225368390638543,
+    "train_mean_severity": 4538.914428571428,
+    "expected_loss_per_contract": 91.80121641144177,
+    "test_contracts": 866,
+    "test_claims": 18,
+    "predicted_total_loss": 79499.85341230857,
+    "actual_total_loss": 90158.32999999999,
+    "absolute_percentage_error_pct": 11.821954319352875,
+    "actual_to_expected_ratio": 1.1340691351015901
+}

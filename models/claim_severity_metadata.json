@@ -1,0 +1,33 @@
+{
+    "model_name": "RandomForestRegressor",
+    "target": "damage_amount",
+    "target_transformation": "log1p",
+    "inverse_transformation": "expm1",
+    "training_rows": 109,
+    "feature_count": 19,
+    "features": [
+        "annual_premium",
+        "client_age",
+        "power_hp",
+        "vehicle_age_at_claim",
+        "current_value",
+        "premium_value_ratio",
+        "log_declaration_lag",
+        "claim_type",
+        "risk_zone",
+        "channel",
+        "csp",
+        "gender",
+        "brand",
+        "fuel_type",
+        "vehicle_usage",
+        "previous_claims_cat",
+        "vehicle_age_group",
+        "client_age_group",
+        "occurrence_season"
+    ],
+    "target_mean": 4120.182201834863,
+    "target_median": 2102.55,
+    "training_prediction_mean": 3949.7869033256165,
+    "random_state": 42
+}

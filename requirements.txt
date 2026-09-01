@@ -1,0 +1,24 @@
+# Core data processing
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0
+
+# Machine learning
+scikit-learn==1.9.0
+xgboost==3.4.0
+joblib==1.5.3
+
+# Data visualization
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Database
+pyodbc==5.3.0
+
+# API
+fastapi==0.141.1
+uvicorn==0.52.3
+
+# Frontend
+streamlit==1.61.1
+requests==2.34.2
